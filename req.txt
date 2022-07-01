@@ -1,0 +1,7 @@
+requests
+discord_webhook
+
+(
+py -3 -m pip install -U requests
+py -3 -m pip install -U discord_webhook
+)
